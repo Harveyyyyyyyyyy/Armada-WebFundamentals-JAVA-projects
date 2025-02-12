@@ -1,4 +1,2 @@
-I took it 1 hour.
-
-I'm just a little confused about the tables part, 
-I'm confused by the amount of tr th td, and the box around the tables I mean the <fieldset> <legend>.
+I'm confused about how to design the first part, which needs to be separated separately to be properly organized. 
+I estimate that it took me 10 minutes and a half to resize the picture size in my #about, but it's okay, I'll solve it.

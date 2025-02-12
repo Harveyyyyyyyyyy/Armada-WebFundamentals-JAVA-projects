@@ -9,7 +9,7 @@ body {
 
 /*Header*/
 header {
-    background: #112d42;
+    background: #1c4857;
     color: #f1f1f1;
     text-align: center;
     padding: 20px;
@@ -27,7 +27,7 @@ header ul {
 
 header ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 15px;
 }
 
 header ul li a {
@@ -49,6 +49,7 @@ header ul li a:hover {
     border: 2px solid #29556b;
     margin: 20px;
     border-radius: 8px;
+    padding: 20px;
 }
 
 #about p {
@@ -59,6 +60,7 @@ header ul li a:hover {
 #about img {
     width: 200px;
     height: auto;
+    padding: 10x;
     border-radius: 10%;
     margin-top: 10px;
     border: 3px solid #29a19c;
