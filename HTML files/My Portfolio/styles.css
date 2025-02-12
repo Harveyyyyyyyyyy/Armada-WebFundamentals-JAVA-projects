@@ -1,0 +1,148 @@
+/*Global Styles*/
+body {
+    background: linear-gradient(#0f2027, #203a43, #2c5364);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 1;
+    padding: 1;
+}
+
+/*Header*/
+header {
+    background: #112d42;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header ul li a:hover {
+    color: #29a19c;
+}
+
+/*About Me Section*/
+#about {
+    background: #1b3a4b;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #29556b;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#about p {
+    line-height: 2;
+    color: white;
+}
+
+#about img {
+    width: 200px;
+    height: auto;
+    border-radius: 10%;
+    margin-top: 10px;
+    border: 3px solid #29a19c;
+}
+
+/*Portfolio/Projects Section*/
+#projects {
+    padding: 20px;
+    text-align: center;
+    background: #1c4857;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: #2c5364;
+    color: #e0e0e0;
+}
+
+th, td {
+    border: 1px solid #3c6e71;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #29a19c;
+    color: black;
+}
+
+/*Contact Section*/
+#contact {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background: #1b3a4b;
+    border-radius: 8px;
+    border: 2px solid #29556b;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    background: #2c5364;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(41, 161, 156, 0.3);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 3px;
+    margin: 5px 0;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background: #374446;
+    color: #ffffff;
+}
+
+button {
+    background: #29a19c;
+    color: #111;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #218b85;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    background: #112d42;
+    color: #f1f1f1;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 3px solid #29a19c;
+}
