@@ -1,0 +1,6 @@
+I struggled with how to equalize the gap between the boxes and 
+how to equalize the size of the boxes in the same frame.ang the first step na ginawa ko instead
+na i call ko lahat ng nasa loob ng body which is the same din lang na nag add ako ng dev "container" kasi yan lang naman lahat 
+karga ng body pero inayos ko nalang para hindi nakakalito at mas naiintindihan.
+
+and i took it 40 minutes.
