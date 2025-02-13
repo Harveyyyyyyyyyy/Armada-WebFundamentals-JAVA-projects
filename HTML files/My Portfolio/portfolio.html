@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="styles.css">
     <title>Welcome to My Portfolio</title>
 </head>
+
 <body>
     <header>
         <h1>Welcome to My Portfolio</h1>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </header>
 
     <main>
-        
+
         <section id="about">
             <h2>About Me</h2>
             <p>Hello! I am a passionate developer who loves creating web applications and learning new technologies.</p>
             <img src="pictures/ssplaceholder.png" alt="A placeholder image for my portfolio">
         </section>
 
-        
+
         <section id="projects">
             <h2>My Projects</h2>
-            
-            <table border="1">
+
+            <table>
                 <tr>
                     <th>Project Name</th>
                     <th>Description</th>
@@ -50,16 +52,16 @@
             </table>
         </section>
 
-        
+
         <section id="contact">
             <h2>Contact Me</h2>
             <form action="#" method="post">
                 <label for="full-name">Full Name:</label>
                 <input type="text" id="full-name" name="full-name" required><br><br>
-                
+
                 <label for="email">Email Address:</label>
                 <input type="email" id="email" name="email" required><br><br>
-                
+
                 <fieldset>
                     <legend>How did you hear about this portfolio?</legend>
                     <label><input type="radio" name="source" value="friend"> Friend</label><br>
@@ -67,18 +69,18 @@
                     <label><input type="radio" name="source" value="search-engine"> Search Engine</label><br>
                     <label><input type="radio" name="source" value="other"> Other</label>
                 </fieldset><br>
-                
+
                 <fieldset>
                     <legend>Skills/Interests</legend>
                     <label><input type="checkbox" name="skills" value="web-development"> Web Development</label><br>
                     <label><input type="checkbox" name="skills" value="design"> Design</label><br>
                     <label><input type="checkbox" name="skills" value="photography"> Photography</label>
                 </fieldset><br>
-                
-                
+
+
                 <label for="comments">Comments or Messages:</label><br>
                 <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
-                
+
                 <button type="submit">Submit</button>
             </form>
         </section>
@@ -88,4 +90,5 @@
         <p>&copy; Mark Harvey C. Ochinang 2025</p>
     </footer>
 </body>
+
 </html>
