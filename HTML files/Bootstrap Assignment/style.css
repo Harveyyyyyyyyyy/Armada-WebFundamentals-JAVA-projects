@@ -19,12 +19,15 @@ body {
 .search-bar {
     padding: 5px;
     border-radius: 5px;
-    border: none;
+    border-style: solid;
     text-align: center;
     width: 200px;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+}
+
+::placeholder {
+    color: white;
 }
 
 .nav-left {
@@ -61,6 +64,7 @@ body {
     border: none;
     text-align: center;
     width: 200px;
+    background-color: #6f42c1;
 }
 
 .hero {
@@ -96,7 +100,7 @@ body {
 .version-info {
     margin-top: 10px;
     font-size: 14px;
-    color: #ccc;
+    color: grey;
 }
 
 .info {
