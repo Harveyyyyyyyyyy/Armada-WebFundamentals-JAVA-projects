@@ -155,7 +155,12 @@ section h3 {
 }
 
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 15px;
     margin: 10px;
     padding: 40px;
 }
-
