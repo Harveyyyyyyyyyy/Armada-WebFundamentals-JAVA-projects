@@ -1,0 +1,282 @@
+* {
+    /* outline: 1px solid red; */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+header {
+    padding: 10px;
+    background-color: #25292e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul {
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    padding: 10px;
+    padding-right: 36%;
+}
+
+header ul li {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+header ul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+header form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+
+header form .search-icon {
+    position: absolute;
+    left: 0;
+    padding: 5px;
+}
+
+header form .slash-icon {
+    position: absolute;
+    right: 0;
+    padding-right: 3px;
+}
+
+header form input {
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px gray solid;
+    padding-left: 100px;
+}
+
+header a {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+header .sign-up {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+main nav ul {
+    padding-top: 3px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+main nav ul li {
+    padding: 15px;
+    list-style: none;
+}
+
+main nav ul li .underline {
+    padding-bottom: 10px;
+    border-bottom: 1px solid blue;
+    color: white;
+    text-decoration: none;
+}
+
+main nav ul li a {
+    color: #9198A1;
+    text-decoration: none;
+}
+
+main div {
+    display: flex;
+}
+
+main div .blank {
+    width: 25%;
+}
+
+main div .trending-developers {
+    padding-left: 30px;
+    width: 19%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main div section {
+    width: 50%;
+}
+
+main div section h2 {
+    color: #9198A1;
+}
+
+main section .game-off-2024 {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 100%;
+}
+
+main div section ul {
+    border-radius: 5px;
+    border: 1px solid #3D444D;
+}
+
+main div section ul li {
+    padding: 10px;
+    list-style: none;
+    color: #9198A1;
+    display: flex;
+    align-items: center;
+}
+
+main div section ul li a {
+    text-decoration: none;
+    color: #9198A1;
+}
+
+.gamebytes {
+    padding-left: 5px;
+}
+
+.top-rated {
+    color: #4493f8;
+}
+
+.hashtag {
+    border-radius: 10px;
+    padding: 8%;
+    margin: 2%;
+    margin-bottom: 4%;
+    height: 10px;
+    width: 10px;
+    background-color: #111D2F;
+    color: #9198A1;
+}
+
+.game-engines {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-engine-head {
+    padding-top: 10px;
+    color: #4493F8;
+}
+
+.link-collection-recommended {
+    color: #4493F8;
+}
+
+footer {
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+footer ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 2%;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.trending-developers {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+/* Trending developers section */
+.top-border {
+    border-top: 1px solid #3D444D;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #151B23;
+    padding: 10px;
+}
+
+.bottom-border {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.trending-developers ul {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: #9198A1;
+    border-bottom: #3D444D solid 1px;
+    border-left: #3D444D solid 1px;
+    border-right: #3D444D solid 1px;
+}
+
+.trending-developers li {
+    list-style: none;
+    padding: 10px;
+}
+
+.trending-developers ul li a {
+    color: #4493F8;
+    text-decoration: none;
+}
+
+.trending-developers ul div {
+    display: flex;
+    flex-direction: column;
+}
+
+.trending-developers ul div a {
+    text-decoration: none;
+    color: #4493F8;
+    font-weight: bold;
+}
+
+.socialmedia-names {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.round-icon {
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+.tetris {
+    width: 100px;
+    height: 100px;
+}
