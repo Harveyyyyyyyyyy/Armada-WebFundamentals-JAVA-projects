@@ -40,10 +40,10 @@ body {
 }
 
 header {
-    padding: 5px;
     border: 1px solid grey;
     gap: 10px;
     display: flex;
+    width: 100%;
 }
 
 header ul {
@@ -177,26 +177,27 @@ form input {
 .advertising-api {
     gap: 10px;
     display: flex;
-    flex-direction: row;
 }
 
 .advertising-left {
     border-radius: 5px;
     padding: 30px;
     border: 1px solid gray;
+    width: 100%;
 }
 
 .advertising-right {
     border-radius: 5px;
     padding: 30px;
     border: 1px solid gray;
+    width: 100%;
 }
 
 .workhere {
     border-radius: 5px;
     border: 1px grey solid;
     display: flex;
-    ;
+    position: relative;
 }
 
 .workhere div {
@@ -213,6 +214,9 @@ main section img {
 }
 
 main {
+    width: 70%;
+    justify-content: center;
+    padding: 80px;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
