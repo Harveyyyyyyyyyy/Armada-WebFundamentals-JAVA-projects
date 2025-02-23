@@ -1,5 +1,5 @@
 * {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     margin: 1;
     padding: 0;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 header {
-    border: 1px solid grey;
+    border: 1px solid #ADB1BE;
     gap: 10px;
     display: flex;
     width: 100%;
@@ -60,7 +60,7 @@ header ul li {
 }
 
 header ul li img {
-    padding-left: 80px;
+    padding-left: 5%;
 }
 
 header ul li a {
@@ -137,6 +137,8 @@ form input {
 }
 
 .every-developer img {
+    height: auto;
+    width: 30%;
     padding-top: 40px;
 }
 
@@ -144,6 +146,7 @@ form input {
     border-radius: 5px;
     border: 1px grey solid;
     display: flex;
+    align-items: center;
 }
 
 .forteams p {
@@ -209,19 +212,146 @@ form input {
 }
 
 main section img {
-    width: 300px;
+    height: auto;
+    width: 30%;
 }
 
 .logoleft {
-    width: 150px;
+    height: auto;
+    width: 20%;
 }
 
 main {
-    width: 70%;
+    height: auto;
+    width: 100%;
     justify-content: center;
     padding: 80px;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+/* Phone screens */
+@media (max-width: 480px) {
+    .every-developer {
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: rgb(249, 250, 250);
+    }
+
+    .every-developer img {
+        height: auto;
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .forteams {
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        border: 1px grey solid;
+    }
+
+    .for-teams-img {
+        width: 100%;
+    }
+
+    .logoleft {
+        height: auto;
+        width: 30%;
+    }
+
+    .overflowai {
+        border-radius: 5px;
+        border: 1px grey solid;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(59, 64, 69);
+        border-radius: 5px;
+    }
+
+    .overflowai img {
+        width: 30%;
+    }
+
+    .advertising-api {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .workhere {
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        border: 1px grey solid;
+        position: relative;
+    }
+
+    .right {
+        width: 100%;
+    }
+}
+
+/* Tablet screens */
+@media (min-width: 481px) and (max-width: 1023px) {
+    .every-developer {
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: rgb(249, 250, 250);
+    }
+
+    .every-developer img {
+        height: auto;
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .forteams {
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        border: 1px grey solid;
+    }
+
+    .for-teams-img {
+        width: 100%;
+    }
+
+    .logoleft {
+        height: auto;
+        width: 30%;
+    }
+
+    .overflowai {
+        border-radius: 5px;
+        border: 1px grey solid;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(59, 64, 69);
+        border-radius: 5px;
+    }
+
+    .overflowai img {
+        width: 30%;
+    }
+
+    .advertising-api {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .workhere {
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        border: 1px grey solid;
+        position: relative;
+    }
+
+    .right {
+        width: 100%;
+    }
 }

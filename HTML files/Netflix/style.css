@@ -116,7 +116,7 @@ form {
 }
 
 .section-2 {
-    margin: 100px;
+    margin: 50px;
 }
 
 .readytowatch {
@@ -131,7 +131,9 @@ section h3 {
     display: flex;
     align-content: center;
     justify-content: space-around;
+    width: 100%;
     margin-bottom: 60px;
+    overflow: auto;
 }
 
 .trending-section img {
@@ -139,7 +141,7 @@ section h3 {
 }
 
 .more-reasons-to-join {
-    color: white;
+    color: #ADB1BE;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -163,4 +165,40 @@ footer {
     font-size: 15px;
     margin: 10px;
     padding: 40px;
+}
+
+/* Phone screens */
+@media (max-width: 480px) {
+    .more-reasons-to-join {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .more-reasons {
+        height: auto;
+        width: 100%;
+        margin: 5px;
+    }
+
+    .trending-section {
+        gap: 10px;
+    }
+}
+
+/* Tablet screens */
+@media (min-width: 481px) and (max-width: 1023px) {
+    .more-reasons-to-join {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .more-reasons {
+        height: auto;
+        width: 100%;
+        margin: 5px;
+    }
+
+    .trending-section {
+        gap: 30px;
+    }
 }
