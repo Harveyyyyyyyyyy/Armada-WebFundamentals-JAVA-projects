@@ -10,7 +10,7 @@ console.log("The total cost of the items is: $" + total);
 let num1 = 2;
 let num2 = 4;
 let num3 = 6;
-let avg = (num1 + num2 + num3)/3;
+let avg = (num1 + num2 + num3) / 3;
 
 console.log("The average is: " + avg)
 
@@ -37,5 +37,3 @@ let discount_percentage = 20;
 let originalprice = final_price / (1 - discount_percentage / 100);
 
 console.log("The original price before the discount was: $" + originalprice + ".")
-
-
