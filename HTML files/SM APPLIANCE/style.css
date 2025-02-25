@@ -1,0 +1,178 @@
+* {
+    /* outline: dotted 1px red; */
+    margin: 1%;
+    padding: 0%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #002056;
+    color: white;
+}
+
+header form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    width: 30%;
+}
+
+header form input {
+    margin: 2%;
+    border-radius: 5px;
+    width: 100%;
+    padding: 1%;
+}
+
+header i {
+    border-radius: 5px;
+    padding: 1%;
+    background-color: orange;
+    position: absolute;
+    right: 1px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.sm-logo {
+    width: 50%;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    gap: 3%;
+    padding: 1%;
+    color: gray;
+}
+
+nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+.banner {
+    width: 100%;
+}
+
+main {
+    background-color: #FCFCFC;
+}
+
+main ul {
+    gap: 3%;
+    display: flex;
+}
+
+main ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+}
+
+main ul li img {
+    height: auto;
+    width: 150px;
+    border-radius: 100%;
+}
+
+main .exclusive li div {
+    padding: 20px;
+}
+
+main .exclusive li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand {
+    color: #AAAAAA;
+}
+
+.description {
+    text-decoration: none;
+    color: black;
+}
+
+.prices {
+    display: flex;
+}
+
+.old-price {
+    color: #AAAAAA;
+}
+
+.discount {
+    color: red;
+    font-weight: bold;
+}
+
+section {
+    background-color: #FCFCFC;
+}
+
+section ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+section ul .group {
+    display: flex;
+}
+
+.group li {
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+    background-color: #333232;
+    color: white;
+}
+
+@media (min-width: 481px) and (max-width: 1023px) {
+    .login {
+        display: none;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .form input{
+        padding: 100px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .categories {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .exclusive {
+        display: flex;
+        flex-wrap: wrap
+    };
+}
