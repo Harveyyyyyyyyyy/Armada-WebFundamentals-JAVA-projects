@@ -1,0 +1,58 @@
+Challenge 1:
+    
+    output:
+    1  
+    1 2  
+    1 2 3
+
+    This code generates a simple number pattern in the shape of a triangle. 
+    The function generatePattern builds a string (result) by looping through numbers in a specific order. 
+    The outer loop (i) controls the number of rows, while the inner loop (j) determines how many numbers appear in each row. 
+    Each row is followed by a newline (\n), so the out put have space between. 
+    This happens because the loop runs from 1 to i, so each row gets one more number than the previous row.
+
+Challenge 2:
+
+    output:
+    [40, 20, 30, 10]
+    [40, 20, 30, 10]
+
+    This code swaps the first and last elements of an array while modifying the original array.
+    The function removes (shift) the first element (10) and stores it in first.
+    It removes (pop) the last element (40) and stores it in last.
+    It then inserts (unshift) last (40) at the beginning of the array.
+    Finally, it adds (push) first (10) to the end of the array.
+    Both console.log() calls print the modified array because the function directly changes the original array.
+
+Challenge 3:
+
+    output:
+    [60, 45, 85, 90]
+
+    This code separates passing and failing grades into a new arrangement.
+    It loops each grade in the grades array.
+    If the grade is 70 or higher, it's passing and added to the end of the passing array using push().
+    If the grade is below 70, it's considered failing and added to the beginning of the passing array using unshift().
+    This happens because failing grades get placed at the front while passing grades go to the back.
+
+Challenge 4:
+
+    output:
+    { id: 1, completed: true },
+    { id: 2, completed: false }
+
+    This code check the completed status of each task in the taskList array.
+    The function loops through each task in the tasks array.
+    It updates the completed property by setting it to the opposite value using !task.completed.false 
+    becomes true, and true becomes false.
+
+Challenge 5:
+
+    output:
+    Found at index 1
+    Not found
+
+    On this code it search a specific value (target) in an array and returns its position if found.
+    The function loops in the array using an index (i).
+    If the current element (arr[i]) matches the target, it returns "Found at index i".
+    If the loop finishes without finding the value, it returns "Not found".
