@@ -22,11 +22,11 @@ This code pairs each fruit with its corresponding count. The loop moves through 
 
 ### Variables and Values:
 
-| Variable         | Value          |
-|------------------|----------------|
+| Variable         | Value                                                 |
+| ---------------- | ----------------------------------------------------- |
 | `inventory`      | `["apple", "banana", "cherry", "date", "elderberry"]` |
-| `inventoryCount` | `[10, 15, 5, 20, 7]`                     |
-| `i`              | Iterates from `0` to `inventory.length - 1` |
+| `inventoryCount` | `[10, 15, 5, 20, 7]`                                  |
+| `i`              | Iterates from `0` to `inventory.length - 1`           |
 
 ---
 
@@ -56,13 +56,13 @@ This code sorts the list of words alphabetically. It goes through the list, comp
 
 ### Variables and Values:
 
-| Variable  | Value                                       |
-|-----------|---------------------------------------------|
-| `words`   | `["zebra", "apple", "mango", "cherry", "banana"]` *(before sorting)* |
-| `words`   | `["apple", "banana", "cherry", "mango", "zebra"]` *(after sorting)* |
-| `i`       | Iterates from `0` to `words.length - 1` |
-| `j`       | Iterates from `i + 1` to `words.length - 1` |
-| `temp`    | Stores temporary swap values during sorting |
+| Variable | Value                                                                |
+| -------- | -------------------------------------------------------------------- |
+| `words`  | `["zebra", "apple", "mango", "cherry", "banana"]` *(before sorting)* |
+| `words`  | `["apple", "banana", "cherry", "mango", "zebra"]` *(after sorting)*  |
+| `i`      | Iterates from `0` to `words.length - 1`                              |
+| `j`      | Iterates from `i + 1` to `words.length - 1`                          |
+| `temp`   | Stores temporary swap values during sorting                          |
 
 ---
 
@@ -94,15 +94,21 @@ console.log(uniqueNumbers);
 [10, 2, 3, 5, 14, 7, 12, 8, 13, 6]
 ```
 
-This code produces 10 unique random numbers between 1 and 20. It starts with an empty list (`uniqueNumbers = []`), keeps picking a random number between 1 and 20, and before adding it, checks if the number already exists in the list. If it’s new, it is added; otherwise, another number is picked. The process repeats until we have 10 unique numbers.
+On this code it produce 10 unique random numbers between 1 and 20.
+Start with an empty list (uniqueNumbers = []).
+it Keeps picking a random number between 1 and 20.
+Before adding, check if the number already exists in the list.
+If it’s new, add it. If it’s already there, pick another.
+Repeat until we have 10 unique numbers.
+Print the final list of numbers.
 
 ### Variables and Values:
 
-| Variable         | Value                                  |
-|------------------|----------------------------------------|
-| `uniqueNumbers`  | A dynamically generated array of 10 unique random numbers between 1 and 20 |
-| `randomNumber`   | Randomly generated number (1-20) |
-| `exists`         | `true` if `randomNumber` is already in `uniqueNumbers`, otherwise `false` |
+| Variable        | Value                                                                      |
+| --------------- | -------------------------------------------------------------------------- |
+| `uniqueNumbers` | A dynamically generated array of 10 unique random numbers between 1 and 20 |
+| `randomNumber`  | Randomly generated number (1-20)                                           |
+| `exists`        | `true` if `randomNumber` is already in `uniqueNumbers`, otherwise `false`  |
 
 ---
 
@@ -134,9 +140,9 @@ If all three conditions are true, the sides form a valid triangle. If even one c
 
 ### Variables and Values:
 
-| Variable  | Value  |
-|-----------|--------|
-| `sideA`   | `7`    |
-| `sideB`   | `10`   |
-| `sideC`   | `5`    |
+| Variable          | Value                                                    |
+| ----------------- | -------------------------------------------------------- |
+| `sideA`           | `7`                                                      |
+| `sideB`           | `10`                                                     |
+| `sideC`           | `5`                                                      |
 | Triangle Validity | `true` if sum of any two sides is greater than the third |
