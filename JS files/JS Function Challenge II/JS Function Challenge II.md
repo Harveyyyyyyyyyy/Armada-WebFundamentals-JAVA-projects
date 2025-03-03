@@ -1,5 +1,3 @@
-# JavaScript Challenges with Explanations
-
 ## Challenge 1: Generate Pattern
 
 ```javascript
