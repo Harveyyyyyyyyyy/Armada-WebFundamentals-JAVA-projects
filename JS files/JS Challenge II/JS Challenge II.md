@@ -22,11 +22,11 @@ This code pairs each fruit with its corresponding count. The loop moves through 
 
 ### Variables and Values:
 
-| Variable          | Value         |
+| Variable         | Value          |
 |------------------|----------------|
 | `inventory`      | `["apple", "banana", "cherry", "date", "elderberry"]` |
 | `inventoryCount` | `[10, 15, 5, 20, 7]`                     |
-| `i`             | Iterates from `0` to `inventory.length - 1` |
+| `i`              | Iterates from `0` to `inventory.length - 1` |
 
 ---
 
@@ -98,7 +98,7 @@ This code produces 10 unique random numbers between 1 and 20. It starts with an 
 
 ### Variables and Values:
 
-| Variable          | Value                                    |
+| Variable         | Value                                  |
 |------------------|----------------------------------------|
 | `uniqueNumbers`  | A dynamically generated array of 10 unique random numbers between 1 and 20 |
 | `randomNumber`   | Randomly generated number (1-20) |
@@ -140,4 +140,3 @@ If all three conditions are true, the sides form a valid triangle. If even one c
 | `sideB`   | `10`   |
 | `sideC`   | `5`    |
 | Triangle Validity | `true` if sum of any two sides is greater than the third |
-```
