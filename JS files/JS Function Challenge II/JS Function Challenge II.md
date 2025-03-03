@@ -1,4 +1,4 @@
-## Challenge 1: Generate Pattern
+## Challenge 1:
 
 ```javascript
 function generatePattern() {
@@ -34,7 +34,7 @@ This happens because the loop runs from 1 to i, so each row gets one morenumber 
 
 ---
 
-## Challenge 2: Swap First and Last Element
+## Challenge 2:
 
 ```javascript
 function swapFirstLast(arr) {
@@ -69,7 +69,7 @@ Both console.log() calls print the modified array because the functiondirectly c
 
 ---
 
-## Challenge 3: Filter Passing Grades
+## Challenge 3:
 
 ```javascript
 function filterPassingGrades(grades) {
@@ -105,7 +105,7 @@ This happens because failing grades get placed at the front while passinggrades 
 
 ---
 
-## Challenge 4: Update Task Status
+## Challenge 4:
 
 ```javascript
 function updateStatus(tasks) {
@@ -138,7 +138,7 @@ becomes true, and true becomes false.
 
 ---
 
-## Challenge 5: Find Value in an Array
+## Challenge 5:
 
 ```javascript
 function findValue(arr, target) {
