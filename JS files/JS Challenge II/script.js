@@ -25,7 +25,6 @@ let uniqueNumbers = [];
 
 while (uniqueNumbers.length < 10) {
     let randomNumber = Math.floor(Math.random() * 20) + 1;
-    // Check if the randomNumber already exists in the array
     let exists = false;
     for (let i = 0; i < uniqueNumbers.length; i++) {
         if (uniqueNumbers[i] === randomNumber) {
@@ -33,7 +32,6 @@ while (uniqueNumbers.length < 10) {
             break;
         }
     }
-    // If it doesn't exist, add it to the array
     if (!exists) {
         uniqueNumbers.push(randomNumber);
     }
