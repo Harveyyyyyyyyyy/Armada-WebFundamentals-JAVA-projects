@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px dotted red; */
+}
+
+body {
+    margin: 3%;
+    width: 50%;
+}
+
+header {
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+    padding: 25px 20% 25px 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+    p {
+        color: #E5E5E5;
+    }
+}
+
+main {
+    margin: 20px;
+    
+    section {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    input {
+        border-radius: 3px;
+        padding: 10px;
+        width: 80%;
+    }
+
+    button {
+        border-radius: 3px;
+        padding: 10px;
+        width: 60%;
+    }
+
+}
