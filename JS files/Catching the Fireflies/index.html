@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Fireflies</title>
+    <style>
+        .firefly {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Catch the Fireflies!</h1>
+    <img src="images/firefly.png" class="firefly">
+    <img src="images/firefly.png" class="firefly">
+    <img src="images/firefly.png" class="firefly">
+    <img src="images/firefly.png" class="firefly">
+
+    <script>
+        // Select all fireflies
+        let fireflies = document.querySelectorAll(".firefly");
+
+        // Attach event listener to each firefly
+        fireflies.forEach(firefly => {
+            firefly.addEventListener("click", function () {
+                //sprinkle GIF
+                setTimeout(() => {
+                    this.src = "images/sprinkle.gif";
+                }, 0);
+
+                // back to firefly image
+                setTimeout(() => {
+                    this.src = "images/firefly.png";
+                }, 1000);
+            });
+        });
+    </script>
+</body>
+
+</html>

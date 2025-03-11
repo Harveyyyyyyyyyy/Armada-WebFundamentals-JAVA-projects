@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Selection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <section class="character-list">
+            <h2>Select a Hero</h2>
+            <div class="character-flex">
+                <button class="character-item" data-name="Katarina" data-image="images/katarina.png"
+                    data-gif="images/katarina.gif" data-description="The Sinister Blade">
+                    <img src="images/katarina.png" alt="katarina" class="character-image">
+                    <p>Katarina</p>
+                </button>
+                <button class="character-item" data-name="Fizz" data-image="images/fizz.png" data-gif="images/fizz.gif"
+                    data-description="Tidal Twister">
+                    <img src="images/fizz.png" alt="fizz" class="character-image">
+                    <p>Fizz</p>
+                </button>
+                <button class="character-item" data-name="Nilah" data-image="images/nilah.png"
+                    data-gif="images/nilah.gif" data-description="The Joy Unbound">
+                    <img src="images/nilah.png" alt="nilah" class="character-image">
+                    <p>Nilah</p>
+                </button>
+                <button class="character-item" data-name="Yasuo" data-image="images/yasuo.png"
+                    data-gif="images/yasuo.gif" data-description="The Unforgiven">
+                    <img src="images/yasuo.png" alt="yasuo" class="character-image">
+                    <p>Yasuo</p>
+                </button>
+                <button class="character-item" data-name="Riven" data-image="images/riven.png"
+                    data-gif="images/riven.gif" data-description="The Exile">
+                    <img src="images/riven.png" alt="riven" class="character-image">
+                    <p>Riven</p>
+                </button>
+                <button class="character-item" data-name="Ahri" data-image="images/ahri.png" data-gif="images/ahri.gif"
+                    data-description="Nine-Tailed Fox">
+                    <img src="images/ahri.png" alt="ahri" class="character-image">
+                    <p>Ahri</p>
+                </button>
+                <button class="character-item" data-name="Seena" data-image="images/seena.png"
+                    data-gif="images/seena.gif" data-description="Mistress of the Shadows">
+                    <img src="images/seena.png" alt="seena" class="character-image">
+                    <p>Seena</p>
+                </button>
+                <button class="character-item" data-name="Kayn" data-image="images/kayn.png" data-gif="images/kayn.gif"
+                    data-description="The Shadow Reaper / The Shadow Assassin">
+                    <img src="images/kayn.png" alt="kayn" class="character-image">
+                    <p>Kayn</p>
+                </button>
+                <button class="character-item" data-name="Master Yi" data-image="images/masteryi.png"
+                    data-gif="images/masteryi.gif" data-description="The Wuju Bladesman">
+                    <img src="images/masteryi.png" alt="masteryi" class="character-image">
+                    <p>Master Yi</p>
+                </button>
+            </div>
+        </section>
+
+        <aside class="selected-character">
+            <img id="selected-gif" src="" alt="">
+            <h2 id="selected-name"></h2>
+            <p id="selected-description"></p>
+        </aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
