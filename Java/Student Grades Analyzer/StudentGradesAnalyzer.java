@@ -38,5 +38,7 @@ public class StudentGradesAnalyzer {
         System.out.printf("Highest Grade: %,d%n", highest);
         System.out.printf("Lowest Grade: %,d%n", lowest);
 
+        scanner.close();
+
     }
 }
