@@ -38,7 +38,7 @@ public class PayrollSystem {
 
     private static void displayMenu() {
         System.out.println("\n1. Add Employee\n2. View All Employees\n3. Calculate Annual Salary");
-        System.out.println("4. Give Salary Raise\n5. Exit\nEnter your choice: ");
+        System.out.print("4. Give Salary Raise\n5. Exit\n\nEnter your choice: ");
     }
 
     private static void addEmployee() {
