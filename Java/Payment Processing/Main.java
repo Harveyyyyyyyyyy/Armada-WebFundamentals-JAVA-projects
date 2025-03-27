@@ -39,7 +39,7 @@ public class Main {
             paymentMethod = new PayPal();
             paymentMethod.processPayment(250.50);
         } else if (choice == 3) {
-            paymentMethod = new PayPal();
+            paymentMethod = new CryptopWallet();
             paymentMethod.processPayment(350.50);
         }
 
