@@ -1,7 +1,0 @@
-Payslip for Harvey
-Employee ID: 123abc
-Role: full-time
-Department: IT
-Hours Worked: 8.00
-Rate per Hour: 100.00
-Net Salary (after 10% tax): 720.00

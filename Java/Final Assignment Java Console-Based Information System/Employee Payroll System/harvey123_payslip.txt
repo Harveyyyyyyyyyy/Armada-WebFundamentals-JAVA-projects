@@ -1,6 +1,0 @@
-Payslip for harvey
-Employee ID: harvey123
-Role: part-time
-Department: it
-Hours Worked: 8.00
-Rate per Hour: 400.00

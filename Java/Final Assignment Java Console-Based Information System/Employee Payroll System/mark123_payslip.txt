@@ -1,7 +1,0 @@
-Payslip for mark
-Employee ID: mark123
-Role: full-time
-Department: piloto
-Hours Worked: 8.00
-Rate per Hour: 1000.00
-Net Salary (after 10% tax): 7200.00

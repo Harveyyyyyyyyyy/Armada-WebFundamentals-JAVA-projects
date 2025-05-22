@@ -1,3 +1,0 @@
-I'm having trouble with the navbar part of the search bar, 
-which requires me to search for how to change the background of the input text, 
-which I've spent 2 hours on.
