@@ -1,0 +1,6 @@
+Payslip for JL
+Employee ID: jl123
+Role: full-time
+Department: nurse
+Hours Worked: 8.00
+Rate per Hour: 400.00

@@ -1,0 +1,58 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 20px;
+}
+
+header {
+	background-color: dodgerblue;
+	text-align: center;
+	padding: 20px;
+	color: white;
+}
+
+.container {
+	display: flex;
+	gap: 20px;
+	padding: 20px;
+	border-style: solid;
+	border-color: lightgray;
+	border-top: none;
+	border-bottom: none;
+	border-width: 1px;
+}
+
+.left-panel {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 40%;
+	color: white;
+	background-color: lightgrey;
+	padding: 10px;
+}
+
+.right-panel {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	color: white;
+}
+
+.top-bar, .main-content {
+	display: flex;
+	gap: 10px;
+}
+
+.box {
+	background-color: lightcoral;
+	padding: 20px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+footer {
+	background-color: orangered;
+	text-align: center;
+	padding: 10px;
+	color: white;
+}

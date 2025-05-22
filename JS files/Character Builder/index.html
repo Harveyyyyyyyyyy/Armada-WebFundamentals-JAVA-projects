@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="character-builder">
+        <h1>Character Creator</h1>
+
+        <div class="character-preview">
+            <img id="base-character" src="assets/base-character.png" alt="">
+            <img id="helmet-slot" class="armor-slot" src="" alt="">
+            <img id="armor-slot" class="armor-slot" src="" alt="">
+            <img id="leggings-slot" class="armor-slot" src="" alt="">
+            <img id="boots-slot" class="armor-slot" src="" alt="">
+        </div>
+
+        <div class="armor-selection">
+            <h2>Select Your Helmet</h2>
+            <div class="options helmet-options">
+                <img data-part="helmet" src="minecraft-assets/Arctic_Hood.png" alt="Helmet">
+                <img data-part="helmet" src="minecraft-assets/Fiery_Helmet.png" alt="Helmet">
+                <img data-part="helmet" src="minecraft-assets/Iron_Helmet.png" alt="Helmet">
+                <img data-part="helmet" src="minecraft-assets/Ironwood_Helmet.png" alt="Helmet">
+                <img data-part="helmet" src="minecraft-assets/Knightmetal_Helmet.png" alt="Helmet">
+                <img data-part="helmet" src="minecraft-assets/Phantom_Helmet.png" alt="Helmet">
+                <img data-part="helmet" src="minecraft-assets/Steeleaf_Helmet.png" alt="Helmet">
+                <img data-part="helmet" src="minecraft-assets/Yeti_Horned_Helm.png" alt="Helmet">
+            </div>
+
+            <h2>Select Your Armor</h2>
+            <div class="options armor-options">
+                <img data-part="armor" src="minecraft-assets/Arctic_Jacket.png" alt="Armor">
+                <img data-part="armor" src="minecraft-assets/Fiery_Chestplate.png" alt="Armor">
+                <img data-part="armor" src="minecraft-assets/Ironwood_Chestplate.png" alt="Armor">
+                <img data-part="armor" src="minecraft-assets/Knightmetal_Chestplate.png" alt="Armor">
+                <img data-part="armor" src="minecraft-assets/Naga_Scale_Tunic.png" alt="Armor">
+                <img data-part="armor" src="minecraft-assets/Phantom_Chestplate.png" alt="Armor">
+                <img data-part="armor" src="minecraft-assets/Steeleaf_Chestplate.png" alt="Armor">
+                <img data-part="armor" src="minecraft-assets/Yeti_Jacket.png" alt="Armor">
+            </div>
+
+            <h2>Select Your Leggings</h2>
+            <div class="options leggings-options">
+                <img data-part="leggings" src="minecraft-assets/Arctic_Leggings.png" alt="Leggings">
+                <img data-part="leggings" src="minecraft-assets/Fiery_Leggings.png" alt="Leggings">
+                <img data-part="leggings" src="minecraft-assets/Ironwood_Leggings.png" alt="Leggings">
+                <img data-part="leggings" src="minecraft-assets/Knightmetal_Greaves.png" alt="Leggings">
+                <img data-part="leggings" src="minecraft-assets/Naga_Scale_Leggings.png" alt="Leggings">
+                <img data-part="leggings" src="minecraft-assets/Steeleaf_Leggings.png" alt="Leggings">
+                <img data-part="leggings" src="minecraft-assets/Yeti_Leggings.png" alt="Leggings">
+            </div>
+
+            <h2>Select Your Boots</h2>
+            <div class="options boots-options">
+                <img data-part="boots" src="minecraft-assets/Fiery_Boots.png" alt="Boots">
+                <img data-part="boots" src="minecraft-assets/Ironwood_Boots.png" alt="Boots">
+                <img data-part="boots" src="minecraft-assets/Knightmetal_Boots.png" alt="Boots">
+                <img data-part="boots" src="minecraft-assets/Steeleaf_Boots.png" alt="Boots">
+                <img data-part="boots" src="minecraft-assets/Yeti_Boots.png" alt="Boots">
+            </div>
+        </div>
+
+        <button id="save-button">Save Character Build</button>
+        <p id="confirmation-message"></p>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

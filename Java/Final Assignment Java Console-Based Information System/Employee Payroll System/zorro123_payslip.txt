@@ -1,0 +1,7 @@
+Payslip for zorro
+Employee ID: zorro123
+Role: part-time
+Department: IT
+Hours Worked: 8.00
+Rate per Hour: 100.00
+Net Salary (after 5% tax): 760.00
