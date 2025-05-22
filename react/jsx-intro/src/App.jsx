@@ -12,7 +12,7 @@ function App() {
     return (
         <>
             {/* Render Section: Use JSX expressions to insert variables */}
-            <h1>{greeting} Welcome to the {name} Journey in {year}</h1>
+            <h1>{greeting} Welcome to the {name} year {year}</h1>
         </>
     )
 }
